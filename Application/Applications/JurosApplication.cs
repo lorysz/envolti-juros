@@ -9,6 +9,7 @@ namespace Application.Applications
 {
     public class JurosApplication : IJurosApplication
     {
+
         public decimal GetTaxaJuros()
         {
             return 0.01m;
