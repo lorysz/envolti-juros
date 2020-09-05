@@ -18,7 +18,7 @@ namespace Application.Applications
             decimal juros = 0.00m;
             var requisicaoWeb = WebRequest.CreateHttp("http://localhost:57874/taxaJuros");
             requisicaoWeb.Method = "GET";
-            requisicaoWeb.UserAgent = "RequisicaoWebDemo";
+
             using (var resposta = requisicaoWeb.GetResponse())
             {
                 var streamDados = resposta.GetResponseStream();
