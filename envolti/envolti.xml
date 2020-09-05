@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>envolti</name>
+    </assembly>
+    <members>
+        <member name="T:envolti.Controllers.CodeController">
+            <summary>
+            API para calculos de juros
+            </summary>
+        </member>
+        <member name="M:envolti.Controllers.CodeController.Get">
+            <summary>
+            Retorna o repositório github com o código fonte
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:envolti.Controllers.JurosController">
+            <summary>
+            API para controle da taxa de juros
+            </summary>
+        </member>
+        <member name="M:envolti.Controllers.JurosController.Get">
+            <summary>
+            Endpoint para retorno da taxa de juros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:envolti.Controllers.JurosController.GetJuros(System.Decimal,System.Int32)">
+            <summary>
+            Endpoint para realizar o calculo do juros
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
